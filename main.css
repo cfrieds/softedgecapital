@@ -1,0 +1,238 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*text formatting*/
+
+@font-face{
+		font-family: 'Gothic';
+        src: url('fonts/GOTHIC.TTF');
+
+	}
+
+@font-face{
+    font-family: 'Modern';
+        src: url('fonts/MOD20.TTF');
+}
+
+h1{
+  font-family: 'Gothic', 'Arial', sans-serif;
+    font-size: 30px;
+    line-height:12px;
+    font-weight:600;
+    color:#dddddd;
+    text-align: center;
+    padding:0px 30px 20px 0px;
+}
+
+h2{
+    font-family: 'Gothic', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height:30px;
+    font-weight:200;
+    color:#dddddd;
+    padding:0 30px;
+    border: 0px 0px;
+    margin-top:-5px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Gothic', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height:30px;
+    font-weight:200;
+    color:#222222;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:20px;
+    text-align: center;
+
+}
+
+
+h4{
+    font-family: 'Gothic', 'Arial', sans-serif;
+    font-size: 30px;
+    line-height:30px;
+    font-weight:400;
+    color:#dddddd;
+    padding:30px;
+    border: 0px 0px;
+    margin-top:0px;
+    margin-bottom:20px;
+    text-align: left;
+    
+}
+
+ul{
+    list-style: none}
+
+li{
+    text-decoration: none;
+   ;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+    
+}
+
+a:visited{
+    color: #333333;
+    font-weight: 600;
+}
+a:hover{
+    background: #dddddd;
+}
+    
+.center{
+margin-left:auto;
+margin-right:auto;
+}
+
+
+/*text*/
+
+/*images*/
+img{
+    align-items: center;
+    
+}
+
+img.dennis{
+    
+    
+}
+
+/*background*/	
+body{
+    background-image:url('images/furley_bg.png');	
+    margin-left:auto;
+    margin-right:auto;
+    height:100%;
+    vertical-align: middle;
+    }
+
+
+
+/*background*/
+
+#nav{
+    position:absolute;
+    top:30px;
+    left:0px;
+    right:750px;
+    z-index:200;
+		
+    width:960;
+    height:65px;
+    margin: 0px;
+        
+    }
+
+ul#mainnav{
+    float: left;
+    list-style: none;
+    padding-left: 20%;
+    width: 960px;
+    height:65px;
+    }
+
+    li#mainnav{
+    
+    float:left;
+    color:#DDD;
+    font-size:14px;     
+    text-decoration:none;
+    padding:50px 20px 0 0px;
+    }
+
+#logo{
+      position:absolute;
+          top:0px;
+        align-items: center;
+        align-content: center;
+        align-self: center;
+    width:100%;
+  
+    }
+#city{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:1100px;
+    height:600px;
+    align-content: center;
+}
+
+.text{
+    margin: 0px 50px;
+}
+
+#principle{
+    float:right;
+    height:800px;
+}
+
+.headshot{
+    float:left;
+
+}
+
+#dennis{
+    float:left;
+    width: 300px;
+    padding: 0 30px 0 30px;
+}
+    
+#wrapper{
+	overflow:hidden; 
+	margin: 0px auto;
+    align-content: center;
+
+}
+#values{
+    height: 300px;
+    /*width:1100px;*/
+    position: absolute;
+    top:900px;
+    width:100%;
+
+}
+
+.dark{
+        /*width:1100px;*/
+
+        background-image:url(images/grey_wash_wall.png);
+        height:300px;
+        position:absolute;
+        top:600px;
+}
+
+#principal{
+        /*width:1100px;*/
+        position: absolute;
+        top:1200px;
+        background-image:url(images/grey_wash_wall.png);
+        height:800px;
+}
+
+#why{
+    position:absolute;
+    top: 2000px;
+    height:800px;
+    /*width:1100px;*/
+}
+
+#contact{
+        background-image:url(images/grey_wash_wall.png);
+        height:200px;
+        position:absolute;
+        top:3000px;
+        width:100%;
+}
+    
+
+
